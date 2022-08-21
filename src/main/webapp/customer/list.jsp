@@ -7,7 +7,7 @@
 <body>
 <h1>Customers</h1>
 <p>
-  <a href="/customer?action=create">Create new customer</a>
+  <a href="${pageContext.request.contextPath}/customer?action=create">Create new customer</a>
 </p>
 <table border="1px">
   <tr>
