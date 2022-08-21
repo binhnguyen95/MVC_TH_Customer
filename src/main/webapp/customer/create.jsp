@@ -17,7 +17,7 @@
     </c:if>
 </p>
 <p>
-    <a href="/customer?action=alo">Back to customer list</a>
+    <a href="${pageContext.request.contextPath}/customer?action=alo">Back to customer list</a>
 </p>
 <form method="post">
     <fieldset>

@@ -24,8 +24,8 @@
       <td>${customer.name}</td>
       <td>${customer.address}</td>
       <td>${customer.email}</td>
-      <td><a href="/customers?action=edit&id=${customer.id}">edit</a></td>
-      <td><a href="/customers?action=delete&id=${customer.id}">delete</a></td>
+      <td><a href="/customer?action=edit&id=${customer.id}">edit</a></td>
+      <td><a href="/customer?action=delete&id=${customer.id}">delete</a></td>
     </tr>
   </c:forEach>
 </table>
